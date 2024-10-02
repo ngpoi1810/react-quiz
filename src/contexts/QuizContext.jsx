@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
 const QuizContext = createContext();
 const SECONDS_PER_QUESTION = 30;
-const BASE_URL = "http://localhost:4000";
+const BASE_URL = "https://json-server-questions.vercel.app";
 const initialState = {
   questions: [],
   status: "loading",
